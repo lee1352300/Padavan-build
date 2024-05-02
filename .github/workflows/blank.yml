@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout
@@ -31,7 +31,7 @@ jobs:
     
     - name: Build Firmware
       env:
-        TNAME: NEWIFI3 #把NEWIFI3改成自己需要编译的设备
+        TNAME: LTE-Router
       run: |
         cd /opt/rt-n56u/trunk
         ################################################################################################
