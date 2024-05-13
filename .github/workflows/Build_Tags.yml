@@ -1,5 +1,5 @@
 
-name: Build Padavan
+name: Build Tags
 
 on: 
   repository_dispatch:
